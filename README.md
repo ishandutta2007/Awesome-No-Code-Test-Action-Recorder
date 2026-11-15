@@ -27,30 +27,13 @@
 
 Commercial, cloud-hosted No-Code Test Action Recorder platforms. These are not open-source but are included as reference points for feature comparison.
 
-### BrowserStack Low-Code Automation
-**Type:** AI-powered recorder within BrowserStack platform
-BrowserStack's Low-Code Automation provides an intuitive recorder that captures user actions and converts them into automated test steps without coding . Key features include **AI-powered validations** (visual, text, and element presence checks), intelligent wait timeouts to reduce flakiness, custom JavaScript actions, API steps for backend simulation, conditional loops, and dynamic test data . It is positioned for teams already using BrowserStack for cross-browser testing who want to accelerate test authoring without writing code .
-**Best for:** Teams in the BrowserStack ecosystem wanting AI-assisted recording with built-in validation and debugging tools.
-
-### Cypress Studio
-**Type:** Interactive test recorder within Cypress App
-Cypress Studio lets you generate and extend E2E tests by recording real interactions in your app, translating each action into Cypress commands in real time . It supports `.click()`, `.type()`, `.check()`, `.uncheck()`, and `.select()` actions, with manual assertion addition and inline code editing . **Studio AI** (requires Cypress Cloud account) automatically recommends assertions as you record, with a free Starter plan available . It uses a priority strategy for selectors: `data-cy`, `data-test`, `data-testid`, `data-qa`, `name`, `id`, `class`, then tag and attributes .
-**Best for:** Teams already writing Cypress tests wanting to accelerate test creation with a recorder that generates native Cypress commands.
-
-### mabl Trainer
-**Type:** AI-powered low-code test recorder
-mabl Trainer records browser and mobile test steps with **plain language descriptions** that capture intent, with multilingual support . It includes **generative AI test creation**, variable management with source attribution, database query steps, visual assertions for file downloads, and a local MCP server for connecting AI clients to mabl testing tools . It is positioned for teams wanting low-code test authoring with strong AI assistance.
-**Best for:** Teams wanting AI-assisted recording with plain-language step descriptions and MCP integration for AI agents.
-
-### Testim Recorder
-**Type:** Free Puppeteer recorder with codeless comparison
-Testim offers a **free Puppeteer recorder** that captures UI interactions and generates JavaScript code compatible with Puppeteer, with the Testim codeless test viewable alongside for comparison . Changes made in the codeless tab automatically update the Puppeteer code in real-time . Testim claims recordings provide a **60-70% jumpstart** on coded Puppeteer tests, automating much of the setup code . The broader Testim platform uses AI to keep tests stable as code changes .
-**Best for:** Developers using Puppeteer wanting to accelerate test creation with a recorder that generates real Puppeteer code, accepting the Testim ecosystem.
-
-### Ghost Inspector Recorder
-**Type:** Browser extension for recording regression tests
-Ghost Inspector's Chrome extension lets you record actions on your website, sync them to the Ghost Inspector service, and run them continuously as regression tests . Tests can be recorded on staging and executed via API on code changes, or recorded on live sites and run at set intervals . It requires a Ghost Inspector account and does not collect or use your data .
-**Best for:** Teams wanting a simple browser-extension recorder tied to a hosted regression testing service, particularly for continuous monitoring.
+| Platform | Type | Starting Pricing | Free Tier / Trial Limit | Key Highlights | Best For |
+|---|---|---|---|---|---|
+| **BrowserStack Low-Code Automation** | AI-powered recorder within BrowserStack platform | Starts at $29/mo (Live manual testing) or $99/mo (Automate testing, billed annually) | Free trial with 30 min Live / 100 min Automate; unlimited access for qualified open source | AI-powered validations (visual, text, element presence), intelligent wait timeouts, custom JS actions, API simulation, and conditional loops. | Teams in the BrowserStack ecosystem wanting AI-assisted recording with built-in validation and debugging tools. |
+| **Cypress Studio** | Interactive test recorder within Cypress App | Starter plan is $0/mo; paid plans start at $67/mo (Team plan billed annually) | Permanent free Starter tier: 500 recorded test results/mo, up to 10 users, 30 days data retention | Embedded recorder in Cypress App generating native Cypress commands (`.click()`, `.type()`, etc.); selector priority strategy (`data-cy`, `data-test`, `id`). | Teams already writing Cypress tests wanting to accelerate test creation with a recorder that generates native Cypress commands. |
+| **mabl Trainer** | AI-powered low-code test recorder | Starts at ~$499/mo (quote-based based on test execution volume and tier) | 14-day free trial with full platform access (no permanent free tier) | Plain-language step descriptions, generative AI test authoring, self-healing tests, visual assertions, and local MCP server for AI agent integration. | Teams wanting AI-assisted recording with plain-language step descriptions and MCP integration for AI agents. |
+| **Testim Recorder** | Free Puppeteer recorder with codeless comparison | Paid plans start at ~$450/mo (Essentials tier based on parallel execution slots) | Permanent free Community Plan (up to 1,000 test runs/month after 14-day trial) | Free Puppeteer recorder converting interactions into Puppeteer code alongside codeless tests, with real-time updates and AI element locators. | Developers using Puppeteer wanting to accelerate test creation with a recorder that generates real Puppeteer code. |
+| **Ghost Inspector Recorder** | Browser extension for recording regression tests | Starts at $109/mo (billed annually, includes 10,000 test runs/mo and 5 seats) | 14-day free trial with full features (no credit card required; no permanent free tier) | Chrome extension records user journeys and syncs to hosted continuous regression suite; schedule runs via API or cron across staging and production. | Teams wanting a simple browser-extension recorder tied to a hosted regression testing service, particularly for continuous monitoring. |
 
 ---
 
