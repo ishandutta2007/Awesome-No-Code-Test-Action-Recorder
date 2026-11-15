@@ -9,17 +9,19 @@
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [BrowserStack Low-Code Automation](#browserstack-low-code-automation)
-  - [Cypress Studio](#cypress-studio)
-  - [mabl Trainer](#mabl-trainer)
-  - [Testim Recorder](#testim-recorder)
-  - [Ghost Inspector Recorder](#ghost-inspector-recorder)
 - [Open-Source Software](#-open-source-software)
   - [Playwright Codegen](#playwright-codegen)
   - [Chrome DevTools Recorder](#chrome-devtools-recorder)
   - [Selenium IDE](#selenium-ide)
   - [UI Recorder](#ui-recorder)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global automated testing market is estimated at **$25B–$35B** (projected to exceed **$80B+ by the early 2030s** at a ~14–16% CAGR), propelled by continuous integration/continuous delivery (CI/CD) pipelines and generative AI adoption. The sector remains **highly fragmented** rather than winner-take-all; enterprise legacy suites (Tricentis, OpenText), high-scale cloud execution grids (BrowserStack, Sauce Labs), agile modern test frameworks (Cypress, Playwright), and specialized scriptless AI startups continually compete and coexist across diverse browser, mobile, and enterprise application stacks.
 
 ---
 
